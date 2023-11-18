@@ -40,8 +40,6 @@ public class DuplicateSort {
                 distinctList[dIndex++] = list[i];
             }
         }
-    
-        // Truncating the array to remove trailing zeros
         return distinctList;
     }
     
